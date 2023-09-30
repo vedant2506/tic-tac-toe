@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><span style="color: blueviolet; font-family: cursive; font-size: 30px;">Tic</span> <span style="color: #2980b9; font-family: cursive; font-size: 40px;">Tac</span>
+            <span style="color: #8e44ad; font-family: cursive; font-size: 50px;">Toe</h1>
+        <div class="board">
+            <div class="cell" id="0"></div>
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+        </div>
+        <div class="status" style="color: darkorange; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Player X's turn</div>
+        <button class="reset-button">Reset Game</button>
+    </div>
+
+    <div class="screen">
+        <div class="screen-content" id="xWinScreen">
+            <h2>Player X wins!</h2>
+            <button class="reset-button">Reset Game</button>
+        </div>
+    </div>
+
+    <div class="screen">
+        <div class="screen-content" id="oWinScreen">
+            <h2>Player O wins!</h2>
+            <button class="reset-button">Reset Game</button>
+        </div>
+    </div>
+
+    <div class="screen">
+        <div class="screen-content" id="drawScreen">
+            <h2>It's a draw!</h2>
+            <button class="reset-button">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
